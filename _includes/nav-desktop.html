@@ -1,16 +1,18 @@
 <nav class="container">
 	<div class="nav-wrapper">
+			<div class="right-side">
+				<div class="brand">
+					<div>STACEY MCKNIGHT</div>
+				</div>
+			</div>
+
 			<div class="left-side">
 				<div class="nav-link-wrapper active-nav-link">
 					<a href="{{ site.url }}/home" {% if page.url == '/home' %}class="current"{% endif %}>Home</a>
 				</div>
-
 				<div class="nav-link-wrapper">
 					<a href="{{ site.url }}/about" class="{% if page.url == '/about' %}current{% endif %}">About</a>
 				</div>
-			</div>
-
-				<div class="right-side">
-					<div class="brand">
+			</div>			
 </nav>
 
