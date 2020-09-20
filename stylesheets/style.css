@@ -1,7 +1,7 @@
 /* Master Styles */
 body {
 	font-family: "Lato", sans-serif;
-	margin: 0px;
+	margin: 10px;
 }
 
 .container {
@@ -9,15 +9,23 @@ body {
 	grid-template-columns: 1fr; 
 }
 
+/* Header Styles */
+.header {
+  padding: 38px;
+  text-align: left;
+  color: cornflowerblue;
+  font-size: 30px;
+}
+
 /* Nav Styles */
 
-.nav-wrapper{
+.nav-wrapper {
 	display: flex;
 	justify-content: space-between;
 	padding: 38px;
 }
 
-.left-side{
+.left-side {
 	display: flex;
 }
 
@@ -47,10 +55,26 @@ body {
 	color: black;
 }
 
-.active-nav-link {
-	border-bottom: 1px solid black;
+
+/* Footer Styles */
+.footer {
+  margin: 0 0.9375rem;
+  max-width: 1200px;}
 }
 
-.active-nav-link a {
-	color: black !important;
+/* In-text links */
+a{
+  color: #000000;
+  border-bottom: 1px dotted;
+  text-decoration: none;
+  transition: color 0.1s ease;
 }
+
+a:visited{color: #000000;
+}
+
+a:hover{
+  text-decoration: none;
+  color: #0066FF;
+}
+
