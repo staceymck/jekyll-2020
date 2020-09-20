@@ -1,10 +1,16 @@
-<nav class="top-nav-desktop">
-	<ul class="nav">
-		<li>
-			<a href="{{ site.url }}/home" {% if page.url == '/home' %}class="current"{% endif %}>Home</a>
-		</li>
-		<li>
-			<a href="{{ site.url }}/about" class="{% if page.url == '/about' %}current{% endif %}">About</a>
-		</li>
-	</ul>
+<nav class="container">
+	<div class="nav-wrapper">
+			<div class="left-side">
+				<div class="nav-link-wrapper active-nav-link">
+					<a href="{{ site.url }}/home" {% if page.url == '/home' %}class="current"{% endif %}>Home</a>
+				</div>
+
+				<div class="nav-link-wrapper">
+					<a href="{{ site.url }}/about" class="{% if page.url == '/about' %}current{% endif %}">About</a>
+				</div>
+			</div>
+
+				<div class="right-side">
+					<div class="brand">
 </nav>
+
