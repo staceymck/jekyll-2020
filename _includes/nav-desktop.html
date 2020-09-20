@@ -1,0 +1,10 @@
+<nav class="top-nav-desktop">
+	<ul class="nav">
+		<li>
+			<a href="{{ site.url }}/home" {% if page.url == '/home' %}class="current"{% endif %}>Home</a>
+		</li>
+		<li>
+			<a href="{{ site.url }}/about" class="{% if page.url == '/about' %}current{% endif %}">About</a>
+		</li>
+	</ul>
+</nav>
