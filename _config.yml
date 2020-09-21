@@ -22,7 +22,7 @@ title: Portofolio site
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   Welcome! This is the portfolio of Stacey McKnight.
-baseurl: "/portfolio-site" # the subpath of your site, e.g. /blog
+baseurl: /portfolio-site # the subpath of your site, e.g. /blog
 url: https://staceymck.github.io # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  staceymck
 
