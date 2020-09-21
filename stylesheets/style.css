@@ -9,27 +9,36 @@ body {
 	grid-template-columns: 1fr; 
 }
 
+main, footer {
+	padding: 1rem 2rem;
+    margin: 0 auto 0rem auto;
+    max-width: 1200px;
+    display: block;
+}
+
 /* Header Styles */
-.header {
-  padding: 38px;
+h1 {
   text-align: left;
   color: cornflowerblue;
   font-size: 30px;
 }
+
 
 /* Nav Styles */
 
 .nav-wrapper {
 	display: flex;
 	justify-content: space-between;
-	padding: 38px;
+	padding: 1rem 2rem;
+    margin: 0 auto 0rem auto;
+    max-width: 1200px;
 }
 
-.left-side {
+.right-side {
 	display: flex;
 }
 
-.nav-wrapper > .left-side > div {
+.nav-wrapper > .right-side > div {
 	margin-right: 20px;
 	font-size: 0.9em;
 	text-transform: uppercase;
@@ -41,12 +50,6 @@ body {
 	transition: border-bottom 0.5s;
 }
 
-.nav-link-wrapper a {
-	color: #8a8a8a;
-	text-decoration: none;
-	transition: color 0.5s;
-}
-
 .nav-link-wrapper:hover {
 	border-bottom: 1px solid black;
 }
@@ -55,26 +58,25 @@ body {
 	color: black;
 }
 
-
-/* Footer Styles */
-.footer {
-  margin: 0 0.9375rem;
-  max-width: 1200px;}
+.nav-wrapper a{
+	 border-bottom: none;
 }
 
 /* In-text links */
-a{
+a {
   color: #000000;
   border-bottom: 1px dotted;
   text-decoration: none;
   transition: color 0.1s ease;
 }
 
-a:visited{color: #000000;
+a:visited{
+	color: #000000;
 }
 
 a:hover{
   text-decoration: none;
   color: #0066FF;
 }
+
 
